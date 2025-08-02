@@ -3,14 +3,14 @@
 // Define preferred palette for light and dark mode
 // Available themes: latte, frappe, mocha, macchiato
 const preferredLightTheme = latte;
-const preferredDarkTheme = macchiato;
+const preferredDarkTheme = mocha;
 
 let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 
 const default_configuration = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Kharagpur",
     scale: "C",
   },
   clock: {
@@ -19,10 +19,6 @@ const default_configuration = {
   },
   additionalClocks: [
     {
-      label: "UA",
-      timezone: "Europe/Kyiv",
-      format: "h:i",
-      icon_color: palette.peach,
     },
   ],
   search: {
@@ -43,90 +39,161 @@ const default_configuration = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
-      background_url: "src/img/banners/banner_09.gif",
+      name: "Kartikeya Singh",
+      background_url: "src/img/banners/Batman.gif",
       categories: [
         {
-          name: "bookmarks",
+          name: "Email",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
-              icon_color: palette.green,
+              name: "kartikeyavia2r",
+              url: "https://mail.google.com/mail/u/0/#inbox",
+              icon: "mail",
+              icon_color: palette.red,
             },
             {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
-              icon_color: palette.peach,
+              name: "kartikeyavi",
+              url: "https://mail.google.com/mail/u/1/#inbox",
+              icon: "mail",
+              icon_color: palette.red,
+            },
+            {
+              name: "kartikeyavia2u",
+              url: "https://mail.google.com/mail/u/2/#inbox",
+              icon: "mail",
+              icon_color: palette.red,
+            },
+            {
+              name: "1906677",
+              url: "https://mail.google.com/mail/u/3/#inbox",
+              icon: "mail",
+              icon_color: palette.red,
             },
           ],
         },
         {
-          name: "workspace",
+          name: "Workspace",
           links: [
             {
-              name: "gmail",
-              url: "https://mail.google.com",
-              icon: "brand-gmail",
+              name: "Google Chat",
+              url: "https://mail.google.com/chat/u/0/#chat/home",
+              icon: "message",
               icon_color: palette.green,
             },
             {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
+              name: "HuggingFace",
+              url: "https://huggingface.co/",
+              icon: "mood-happy",
               icon_color: palette.peach,
             },
             {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
-              icon_color: palette.red,
+              name: "Canva",
+              url: "https://www.canva.com/",
+              icon: "photo-scan",
+              icon_color: palette.blue,
             },
             {
-              name: "drive",
-              url: "https://drive.google.com/drive/home",
-              icon: "brand-google-drive",
+              name: "Google Docs",
+              url: "https://docs.google.com/document/u/0/",
+              icon: "file",
               icon_color: palette.blue,
             },
           ],
         },
         {
-          name: "media",
+          name: "Artificial Intelligence",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
+              name: "ChatGPT",
+              url: "https://chatgpt.com/",
+              icon: "brand-openai",
               icon_color: palette.green,
             },
             {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
+              name: "Gemini",
+              url: "https://gemini.google.com/app",
+              icon: "brand-google",
               icon_color: palette.peach,
             },
             {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
-              icon_color: palette.red,
+              name: "Claude",
+              url: "https://claude.ai/new",
+              icon: "letter-a",
+              icon_color: palette.peach,
             },
             {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
-              icon_color: palette.blue,
-            },
-            {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
-              icon_color: palette.mauve,
+              name: "Grok",
+              url: "https://grok.com/",
+              icon: "circle-dotted-letter-g",
+              icon_color: palette.white,
             },
           ],
         },
+        {
+          name: "Notion",
+          links: [
+            {
+              name: "My Life OS",
+              url: "https://www.notion.so/My-Life-OS-1d48ccdf9a28800983a9f184a2b99aab",
+              icon: "brand-notion",
+              icon_color: palette.white,
+            },
+            {
+              name: "The Masters Plan",
+              url: "https://www.notion.so/The-Master-s-Plan-2068ccdf9a288069b4fbfaa826541c0a",
+              icon: "brand-notion",
+              icon_color: palette.white,
+            },
+            {
+              name: "IIT KGP",
+              url: "https://www.notion.so/IIT-Kharagpur-b7b6be72722b41f4a0cd736d72f08f9e",
+              icon: "brand-notion",
+              icon_color: palette.white,
+            },
+          ],
+        },
+        {
+          name: "Fun",
+          links: [
+            {
+              name: "Youtube",
+              url: "https://www.youtube.com/",
+              icon: "brand-youtube",
+              icon_color: palette.red,
+            },
+            {
+              name: "VgList",
+              url: "https://www.vglist.nl/",
+              icon: "letter-v",
+              icon_color: palette.purple,
+            },
+            {
+              name: "Vegamovies",
+              url: "https://www.vglist.nl/?re=vegamovies",
+              icon: "letter-v",
+              icon_color: palette.white,
+            },
+            {
+              name: "ROG Movies",
+              url: "https://www.vglist.nl/?re=rogmovies",
+              icon: "letter-r",
+              icon_color: palette.green,
+            },
+            {
+              name: "Pahe",
+              url: "https://pahe.ink/",
+              icon: "letter-p",
+              icon_color: palette.blue,
+            },
+            {
+              name: "Rive",
+              url: "https://rivestream.net/",
+              icon: "letter-r",
+              icon_color: palette.white,
+            },
+          ],
+        },
+        
       ],
     },
     {
